@@ -1,0 +1,7 @@
+#xbox_menu{
+    width: 700%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    transition: ease all .5s;
+}
