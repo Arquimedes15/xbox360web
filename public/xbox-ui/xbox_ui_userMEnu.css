@@ -1,0 +1,13 @@
+#user-tag{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    top: 3vh;
+    right: 10%;
+    font-size: 3vh;
+    & img{
+        height: 3vh;
+        width: 3vh;
+    }
+}

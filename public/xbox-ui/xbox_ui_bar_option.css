@@ -1,0 +1,21 @@
+#bar_menu_xbox{
+    position: fixed;
+    display: flex;
+    gap: .5vh;
+    top: 7vh;
+    width: 100%;
+    justify-content: center;
+    & li {
+        margin: 0 2vh;
+        list-style: none;
+
+        & a{
+            transition: ease .5s all;
+            color: rgba(255, 255, 255, 0.448);
+            columns: 4vh;
+            padding: 0.5vh;
+            text-decoration: none;
+            font-size: 4vh;
+        }
+    }
+}

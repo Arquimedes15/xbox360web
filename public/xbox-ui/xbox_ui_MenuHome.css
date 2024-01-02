@@ -1,0 +1,31 @@
+#menu-home{
+    margin: 15vh auto;
+    width: 90%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: .5vh;
+    & li{
+        list-style: none;
+        z-index: 1;
+        background-color: green;
+        transition: ease all .5s;
+        & img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    & li:nth-child(2){
+        background-color: aqua;
+        grid-column: 2/4;
+        grid-row: 1 / 3;
+    }
+
+    & li:hover, li:focus-within{
+        transform: scale(1.05);
+        z-index: 2;
+    }
+}
