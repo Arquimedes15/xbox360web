@@ -11,3 +11,10 @@
         width: 3vh;
     }
 }
+#name_server{
+    position: fixed;
+    bottom: 3vh;
+    left: 3vh;
+    font-size: 3vh;
+    user-select: none;
+}
